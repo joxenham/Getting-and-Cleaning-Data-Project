@@ -79,4 +79,4 @@ rm(melt.data, id.labels, data.labels, data, activity.labels, extracted.features,
 
 # Write to text file
 setwd("..")
-write.table(tidy.data, file = "./tidy_data.txt")
+write.table(tidy.data, file = "./tidy_data.txt", row.name=FALSE)
